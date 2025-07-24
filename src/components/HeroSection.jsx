@@ -19,13 +19,13 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.8 }}
           >
-            <span className="holographic-text">ENHANCED</span>
+            <span className="holographic-text">WELCOME</span>
             <br />
-            <span className="text-white">INTRANET</span>
+            <span className="holographic-text">TO APEX WORLD</span>
           </motion.h1>
           
           <motion.p 
-            className="text-xl text-gray-300 max-w-lg leading-relaxed"
+            className="text-xl text-black max-w-lg leading-relaxed"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
