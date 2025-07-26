@@ -25,7 +25,7 @@ export default function HeroSection() {
           </motion.h1>
           
           <motion.p 
-            className="text-xl text-gray-700 max-w-lg leading-relaxed"
+            className="holographic-text text-xl text-gray-400 max-w-lg leading-relaxed"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
